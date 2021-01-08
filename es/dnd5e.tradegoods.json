@@ -24,17 +24,17 @@
     {
       "id": "Copper",
       "name": "Cobre (Copper)",
-      "description": "<P> Codiciado por carpinteros de barcos, alquimistas, ciertos joyeros, y chefs por igual, el cobre es comúnmente extraído de la superficie, sino que existe la minería subterránea cuando las fuentes de superficie se han agotado o no puede ser localizado. </ P> \n <p> Aunque puede usarse para armaduras, se mezcla mucho mejor con estaño para hacer la aleación de bronce mucho más superior para necesidades militares. </p>"
+      "description": "<P> Codiciado por carpinteros de barcos, alquimistas, ciertos joyeros, y chefs por igual, el cobre es comúnmente extraído de la superficie, sino que existe la minería subterránea cuando las fuentes de superficie se han agotado o no puede ser localizado. </ P><p> Aunque puede usarse para armaduras, se mezcla mucho mejor con estaño para hacer la aleación de bronce mucho más superior para necesidades militares. </p>"
     },
     {
       "id": "Cotton",
       "name": "Algodón (Cotton)",
-      "description": "<p> Un metro cuadrado de algodón de peso y calidad promedio. Se usa para muchos artículos y ropa. </p> \n <p> Mucho más liviano, más cómodo y más fácil de trabajar que el lienzo; sin embargo, el cultivo comparativamente más delicado significa que, en consecuencia, es más costoso y potencialmente más difícil de conseguir. </p>"
+      "description": "<p> Un metro cuadrado de algodón de peso y calidad promedio. Se usa para muchos artículos y ropa. </p><p> Mucho más liviano, más cómodo y más fácil de trabajar que el lienzo; sin embargo, el cultivo comparativamente más delicado significa que, en consecuencia, es más costoso y potencialmente más difícil de conseguir. </p>"
     },
     {
       "id": "Cow",
       "name": "Vacas (Cow)",
-      "description": "<p> Una criatura para granjeros de gran superficie, las vacas requieren grandes áreas de pastoreo plano, lo que significa que no son tan comunes como otros animales. Sin embargo, viven más y dan mucha más leche. También son una fuente de cuero mucho más duradero que es menos propenso a las grietas y es resistente al calor y la suciedad. </p> \n <p> Dependiendo del género y la raza, las vacas adultas pueden pesar entre 1,000 y 1,800 libras. </p>"
+      "description": "<p> Una criatura para granjeros de gran superficie, las vacas requieren grandes áreas de pastoreo plano, lo que significa que no son tan comunes como otros animales. Sin embargo, viven más y dan mucha más leche. También son una fuente de cuero mucho más duradero que es menos propenso a las grietas y es resistente al calor y la suciedad. </p><p> Dependiendo del género y la raza, las vacas adultas pueden pesar entre 1,000 y 1,800 libras. </p>"
     },
     {
       "id": "Flour",
@@ -44,17 +44,17 @@
     {
       "id": "Ginger",
       "name": "Jengibre (Ginger)",
-      "description": "<p> Una especia que proviene de la raíz fresca o seca de la planta de jengibre Zingiber officinale. Pertenece a la misma familia que la cúrcuma y el cardamomo. </p> \n <p> Valorado por chefs y fabricantes de dulces, amados por niños y personas con gustos más picantes. </p>"
+      "description": "<p> Una especia que proviene de la raíz fresca o seca de la planta de jengibre Zingiber officinale. Pertenece a la misma familia que la cúrcuma y el cardamomo. </p> <p> Valorado por chefs y fabricantes de dulces, amados por niños y personas con gustos más picantes. </p>"
     },
     {
       "id": "Goat",
       "name": "Cabras (Goat)",
-      "description": "<p> Una criatura útil para los granjeros de áreas pequeñas y los habitantes de las tierras altas, las cabras son efectivas para evitar que los prados crezcan excesivamente mientras proporcionan leche, queso y eventualmente pieles y carne. </p> \n <p> Dependiendo de la raza, el adulto las cabras pueden variar desde 45 libras hasta 300 libras. </p>"
+      "description": "<p> Una criatura útil para los granjeros de áreas pequeñas y los habitantes de las tierras altas, las cabras son efectivas para evitar que los prados crezcan excesivamente mientras proporcionan leche, queso y eventualmente pieles y carne. </p><p> Dependiendo de la raza, el adulto las cabras pueden variar desde 45 libras hasta 300 libras. </p>"
     },
     {
       "id": "Gold",
       "name": "Oro (Gold)",
-      "description": "<p> El oro es el rey de la moneda para muchas civilizaciones. Por lo general, es más común que el platino, pero no es tan común como otros metales como el hierro, ocupa un punto dulce en la rareza y la falta de reactividad. </p> \n <p> A diferencia de la plata, el oro se puede encontrar más fácilmente en el superficie. Tanto la minería de superficie como la subterránea pueden ser extremadamente rentables. La fiebre del oro puede y ha sido una fuente de gran felicidad y gran tragedia. </p>"
+      "description": "<p> El oro es el rey de la moneda para muchas civilizaciones. Por lo general, es más común que el platino, pero no es tan común como otros metales como el hierro, ocupa un punto dulce en la rareza y la falta de reactividad. </p><p> A diferencia de la plata, el oro se puede encontrar más fácilmente en la superficie. Tanto la minería de superficie como la subterránea pueden ser extremadamente rentables. La fiebre del oro puede y ha sido una fuente de gran felicidad y gran tragedia. </p>"
     },
     {
       "id": "Iron",
@@ -64,7 +64,7 @@
     {
       "id": "Linen",
       "name": "Lino (Linen)",
-      "description": "<p> Un metro cuadrado de lino de calidad y peso medios. Se utiliza para todos los artículos y prendas de vestir. </p> \n <p> Más duradero que el algodón, su durabilidad y transpirabilidad lo hacen especialmente valioso en climas cálidos. </p> \n <p> Existen diferentes tipos de lino , con tejidos más ligeros a partir de 6 onzas por yarda cuadrada, y el resto hasta 15 onzas. </p>"
+      "description": "<p> Un metro cuadrado de lino de calidad y peso medios. Se utiliza para todos los artículos y prendas de vestir. </p><p> Más duradero que el algodón, su durabilidad y transpirabilidad lo hacen especialmente valioso en climas cálidos. </p><p> Existen diferentes tipos de lino , con tejidos más ligeros a partir de 6 onzas por yarda cuadrada, y el resto hasta 15 onzas. </p>"
     },
     {
       "id": "Ox",
@@ -84,7 +84,7 @@
     {
       "id": "Platinum",
       "name": "Platino (Platinum)",
-      "description": "<p> Mucho más raro que el oro, el platino puede ser tratado como el pináculo de la riqueza, o el vestigio de una época pasada que puede encontrarse con desconfianza o envidia. </p> \n <p> A diferencia del oro, el platino es casi minado exclusivamente bajo tierra. </p>"
+      "description": "<p> Mucho más raro que el oro, el platino puede ser tratado como el pináculo de la riqueza, o el vestigio de una época pasada que puede encontrarse con desconfianza o envidia. </p><p> A diferencia del oro, el platino es casi minado exclusivamente bajo tierra. </p>"
     },
     {
       "id": "Saffron",
@@ -99,17 +99,17 @@
     {
       "id": "Sheep",
       "name": "Ovejas (Sheep)",
-      "description": "<p> Una criatura útil para los granjeros de áreas pequeñas y los habitantes de las tierras altas, aunque no son tan ágiles como las cabras, tienen la valiosa capacidad de ser esquiladas todos los años, lo que les da a las personas una fuente de ropa, alfombras y mantas para camas y sillas. Su mayor tamaño también significa que son más valiosos para el sacrificio. </p> \n <p> Dependiendo de la raza, las ovejas adultas pueden variar desde 100 libras hasta 350 libras. </p>"
+      "description": "<p> Una criatura útil para los granjeros de áreas pequeñas y los habitantes de las tierras altas, aunque no son tan ágiles como las cabras, tienen la valiosa capacidad de ser esquiladas todos los años, lo que les da a las personas una fuente de ropa, alfombras y mantas para camas y sillas. Su mayor tamaño también significa que son más valiosos para el sacrificio. </p><p> Dependiendo de la raza, las ovejas adultas pueden variar desde 100 libras hasta 350 libras. </p>"
     },
     {
       "id": "Silk",
       "name": "Seda (Silk)",
-      "description": "<p> Un metro cuadrado de seda de peso y calidad promedio. Utilizado para todos los artículos y prendas de vestir. </p> \n <p> El más fino y deseable de los tejidos comunes, la seda también es la más ligera. La mayoría de las sedas pesarán entre 2 y 4 onzas por yarda cuadrada. Cuanto más pesada sea la seda, mayor será la calidad, más duradera y de color más opaco. </p>"
+      "description": "<p> Un metro cuadrado de seda de peso y calidad promedio. Utilizado para todos los artículos y prendas de vestir. </p><p> El más fino y deseable de los tejidos comunes, la seda también es la más ligera. La mayoría de las sedas pesarán entre 2 y 4 onzas por yarda cuadrada. Cuanto más pesada sea la seda, mayor será la calidad, más duradera y de color más opaco. </p>"
     },
     {
       "id": "Silver",
       "name": "Plata (Silver)",
-      "description": "<p> La plata ha sido apreciada durante mucho tiempo por su naturaleza no reactiva y su facilidad con la que puede moldearse en las mejores decoraciones, adornos y, por supuesto, usarse como moneda. </p> \n <p> La plata rara vez se encuentra en su forma nativa en pepitas. Normalmente se encuentra mezclado con otras sustancias como el azufre o el cloro, en minerales o como una aleación con oro. Se puede encontrar plata superficial, pero se extrae mucho más comúnmente bajo tierra. La minería de plata es lucrativa y puede inspirar a la fiebre de la plata. </p>"
+      "description": "<p> La plata ha sido apreciada durante mucho tiempo por su naturaleza no reactiva y su facilidad con la que puede moldearse en las mejores decoraciones, adornos y, por supuesto, usarse como moneda. </p><p> La plata rara vez se encuentra en su forma nativa en pepitas. Normalmente se encuentra mezclado con otras sustancias como el azufre o el cloro, en minerales o como una aleación con oro. Se puede encontrar plata superficial, pero se extrae mucho más comúnmente bajo tierra. La minería de plata es lucrativa y puede inspirar a la fiebre de la plata. </p>"
     },
     {
       "id": "Wheat",

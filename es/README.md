@@ -1,7 +1,7 @@
 # Dnd-srd-espanol-Foundry-vtt
 Instrucciones para instalar
 
-En el Sistema Operativo
+-En el Sistema Operativo-
 Crea las siguientes carpetas dentro del directorio de Foundry
 
 Data\translations\es\
@@ -14,9 +14,12 @@ Finalmente, no olvides comprobar que dentro de los Ajustes Básicos tengas selec
 
 
 
+-Versión 1.6-
 
 
-Version 1.5
+
+
+-Versión 1.5-
 En esta versión, se terminó de traducir las reglas y los rasgos de Raza.
 En las próximas se pasará a terminar de traducir el compendio de atributos de monstruos.
 
