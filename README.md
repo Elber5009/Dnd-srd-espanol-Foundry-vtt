@@ -15,7 +15,7 @@ Finalmente, no olvides comprobar que dentro de los Ajustes Básicos tengas selec
 
 
 -Versión 1.6-
-
+Se modificaron las formulas de sneak attack, Dark One's Blessing, Wholeness of Body, Channel Divinity: Preserve Life, y Second Wind para que funcionen con la traducción
 
 
 
@@ -32,3 +32,5 @@ Eliminar los componentes que no aparecen en el SRD.
 
 
 De momento no es factible traducir el compendio de monstruos con el modulo Babel, es más viable pasar el JSON a CSV y modificarlo directamente o crear una copia del compendio y modificarla desde Foundry.
+
+

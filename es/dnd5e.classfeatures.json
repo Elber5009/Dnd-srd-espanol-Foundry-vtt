@@ -2,7 +2,8 @@
   "label": "Rasgos de Clase (SRD)",
   "mapping": {
     "source": "data.source",
-    "requirements": "data.requirements"
+    "requirements": "data.requirements",
+    "damage_formula": "data.damage.parts"
   },
   "entries": [
     {
@@ -171,7 +172,8 @@
       "name": "Canalizar Divinidad: Preservar vida (Channel Divinity: Preserve Life)",
       "description": "<p>A partir de nivel 2, eres capaz de utilizar tu Canalizar Divinidad para curar a los gravemente heridos.</p><p>Como acci&oacute;n, puedes mostrar tu s&iacute;mbolo sagrado y generar una energ&iacute;a curativa capaz de recuperar tantos puntos de golpe como cinco veces tu nivel de cl&eacute;rigo. Elige a cualquier cantidad de criaturas a 30 pies o menos de ti y divide estos puntos de golpe entre ellas. Este rasgo no puede hacer que una criatura pase a tener m&aacute;s de la mitad de sus puntos de golpe m&aacute;ximos y no podr&aacute;s utilizarlo sobre muertos vivientes o aut&oacute;matas</p>",
       "source": "PHB pg. 60",
-      "requirements": "Dominio de la Vida 2"
+      "requirements": "Dominio de la Vida 2",
+      "damage_formula": [["5* @classes.clerigo-cleric.levels","healing"]]
     },
     {
       "id": "Channel Divinity: Sacred Weapon",
@@ -241,7 +243,8 @@
       "name": "Bendicion del Oscuro (Dark One's Blessing )",
       "description": "<p>A partir de nivel 1, cuando reduces a una criatura hostil a 0 puntos de golpe, ganas tantos puntos de golpe temporales como tu modificador por Carisma + tu nivel de brujo (m&iacute;nimo de 1).</p>",
       "source": "PHB pg. 109",
-      "requirements": "El Infernal 1"
+      "requirements": "El Infernal 1",
+	    "damage_formula": [["@mod + @classes.brujo-warlock.levels","temphp"]]
     },
     {
       "id": "Dark One's Own Luck",
@@ -1361,7 +1364,8 @@
       "name": "Tomar Aliento (Second Wind)",
       "description": "<p>Posees una peque&ntilde;a reserva de energ&iacute;as, a la que puedes recurrir para protegerte del peligro. Puedes usar una acci&oacute;n adicional durante tu turno para recuperar tantos puntos de golpe como [[/r 1d10]] + tu nivel de guerrero. Una vez utilizado este rasgo, deber&aacute;s terminar un descanso corto o largo para poder volver a emplearlo de nuevo.</p>",
       "source": "PHB pg. 72",
-      "requirements": "Guerrero 1"
+      "requirements": "Guerrero 1",
+      "damage_formula": [["1d10 + @classes.guerrero-fighter.levels",""]]
     },
     {
       "id": "Second-Story Work",
@@ -1403,7 +1407,8 @@
       "name": "Ataque Furtivo (Sneak Attack)",
       "description": "<p>A partir de nivel 1 sabes c&oacute;mo golpear sutilmente y aprovecharte de un enemigo distra&iacute;do. Una vez por turno, puedes infligir 1d6 de da&ntilde;o adicional a una criatura a la que impactes con un ataque en cuya tirada de ataque tuvieras ventaja. Este ataque debe haber sido hecho utilizando un arma sutil o a distancia.</p><p>No necesitas tener ventaja en la tirada de ataque si otro enemigo del objetivo est&aacute; a 5 pies o menos de &eacute;l, dicho enemigo no est&aacute; incapacitado, y no sufres desventaja en la tirada de ataque.</p><p>La cantidad de da&ntilde;o adicional aumenta seg&uacute;n subes de nivel en esta clase, tal y como se indica en la tabla.</p><table border=\"1\"><thead><tr><td style=\"text-align: center;\">Nivel</td><td style=\"text-align: center;\">Ataque Furtivo</td></tr></thead><tbody><tr><td style=\"text-align: center;\">1</td><td style=\"text-align: center;\">[[/r 1d6]]</td></tr><tr><td style=\"text-align: center;\">2</td><td style=\"text-align: center;\">[[/r 1d6]]</td></tr><tr><td style=\"text-align: center;\">3</td><td style=\"text-align: center;\">[[/r 2d6]]</td></tr><tr><td style=\"text-align: center;\">4</td><td style=\"text-align: center;\">[[/r 2d6]]</td></tr><tr><td style=\"text-align: center;\">5</td><td style=\"text-align: center;\">[[/r 3d6]]</td></tr><tr><td style=\"text-align: center;\">6</td><td style=\"text-align: center;\">[[/r 3d6]]</td></tr><tr><td style=\"text-align: center;\">7</td><td style=\"text-align: center;\">[[/r 4d6]]</td></tr><tr><td style=\"text-align: center;\">8</td><td style=\"text-align: center;\">[[/r 4d6]]</td></tr><tr><td style=\"text-align: center;\">9</td><td style=\"text-align: center;\">[[/r 5d6]]</td></tr><tr><td style=\"text-align: center;\">10</td><td style=\"text-align: center;\">[[/r 5d6]]</td></tr><tr><td style=\"text-align: center;\">11</td><td style=\"text-align: center;\">[[/r 6d6]]</td></tr><tr><td style=\"text-align: center;\">12</td><td style=\"text-align: center;\">[[/r 6d6]]</td></tr><tr><td style=\"text-align: center;\">13</td><td style=\"text-align: center;\">[[/r 7d6]]</td></tr><tr><td style=\"text-align: center;\">14</td><td style=\"text-align: center;\">[[/r 7d6]]</td></tr><tr><td style=\"text-align: center;\">15</td><td style=\"text-align: center;\">[[/r 8d6]]</td></tr><tr><td style=\"text-align: center;\">16</td><td style=\"text-align: center;\">[[/r 8d6]]</td></tr><tr><td style=\"text-align: center;\">17</td><td style=\"text-align: center;\">[[/r 9d6]]</td></tr><tr><td style=\"text-align: center;\">18</td><td style=\"text-align: center;\">[[/r 9d6]]</td></tr><tr><td style=\"text-align: center;\">19</td><td style=\"text-align: center;\">[[/r 10d6]]</td></tr><tr><td style=\"text-align: center;\">20</td><td style=\"text-align: center;\">[[/r 10d6]]</td></tr></tbody></table><p> </p>",
       "source": "PHB pg. 96",
-      "requirements": "Pícaro 1"
+      "requirements": "Pícaro 1",
+	  "damage_formula": [["(ceil(@classes.picaro-rogue.levels /2))d6",""]]
     },
     {
       "id": "Song of Rest",
@@ -1648,7 +1653,8 @@
       "name": "Plenitud del Cuerpo (Wholeness of Body)",
       "description": "<p>A nivel 6 obtienes la capacidad de sanarte a ti mismo. Puedes usar una acci&oacute;n para recuperar tantos puntos de golpe como tres veces tu nivel de monje. Una vez utilizado este rasgo, debe ras terminar un descanso largo para poder volver emplearlo de nuevo.</p>",
       "source": "PHB pg. 79",
-      "requirements": "Camino de la Mano Abierta 6"
+      "requirements": "Camino de la Mano Abierta 6",
+      "damage_formula": [["@classes.monje-monk.levels","healing"]]
     },
     {
       "id": "Wild Shape",
